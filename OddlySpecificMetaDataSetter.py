@@ -68,7 +68,6 @@ def main(args):
 	print "Welcome to Levi's Wonderfully Amazing MetaData Appender Thingy"
 	print "-" * 200
 	print " " * 200
-	# TODO Replace this with your actual code.
 	get_text_file(sys.argv[2])
 
 # Standard boilerplate to call the main() function to begin
@@ -78,7 +77,7 @@ if __name__ == '__main__':
                                     description = "Does a thing to some stuff.",
                                     epilog = "As an alternative to the commandline, params can be placed in a file, one per line, and specified on the commandline like '%(prog)s @params.conf'.",
                                     fromfile_prefix_chars = '@' )
-  # TODO Specify your real parameters here.
+
   parser.add_argument(
                       "-f",
                       "--file",
